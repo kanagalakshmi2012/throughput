@@ -53,6 +53,5 @@ In distributed systems, accurate time synchronization is vital for maintaining c
 * https://www.ijsat.org/
 
 **Author Contact** 
-  * LinkedIn: https://www.linkedin.com/in/naveensrikanth/
-  * Email: connect.naveensrikanth@gmail.com
+  * LinkedIn: http://linkedin.com/in/kanagalakshmi-murugan-12b278199 |  Email:  kanagalakshmi2004@gmail.com
 
