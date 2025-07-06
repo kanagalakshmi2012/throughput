@@ -47,7 +47,7 @@ Enhanced stability and availability of write processes by optimizing I/O handlin
 | 15                    | 47000                      | 75000                       | 59.57           |
 
 **Citation**
-* **OPTIMIZING READ PERFORMANCE IN DISTRIBUTED systems USING Chrony Sync process.**
+* **ELEVATING DATA THROUGHPUT IN DISTRIBUTED KEY-VALUE SYSTEMS WITH  DATA DISTRIBUTION**
 *   Kanagalakshmi Murugan
 *   International Journal on Science and Technology
 *   E-ISSN-2229-7677
