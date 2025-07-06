@@ -9,35 +9,42 @@
 * Link: https://www.ijsat.org/research-paper.php?id=5841
 
 **Abstract**:\
-In distributed systems, accurate time synchronization is vital for maintaining consistency and coordination among nodes. Traditional Network Time Protocol (NTP) often suffers from high synchronization delays, especially in large-scale systems with many nodes and high network latency. These delays can lead to inconsistencies in data replication and hinder time-sensitive operations. This paper proposes the use of Chrony Sync, a more efficient time synchronization method, to significantly reduce synchronization times. By optimizing synchronization, Chrony enhances system performance, consistency, and reliability in large distributed environments.
+Distributed systems unify multiple computers to work as a single cohesive unit, enhancing scalability and availability. Without sharding—partitioning data across nodes—these systems suffer from scalability limits, performance bottlenecks, and higher latency. Non-sharded systems face hotspots, single points of failure, and complex maintenance. Sharding evenly distributes data and workload, improving throughput, fault tolerance, and operational efficiency. Thus, sharding is critical for maintaining performance and reliability in large-scale distributed architectures.
 
 **Key Contributions:** 
-* **Algorithm Development** \
-  Designed and optimized Chrony sync time algorithm to achieve high write availability in distributed systems.
-* **Performance Comparison** \
-  Conducted bench marking between NTP Sync time and Chrony sync time.
-* **Reserach Leadership** \
-  Led the research and technical implementation , focusing on advancing distributed database through algorithm innovation.
+* **I/O Optimization:**\
+Improved data sharding strategies to balance I/O operations across nodes, reducing disk contention and latency.
+
+* **Throughput Improvement:**\
+Enhanced parallel I/O handling, resulting in faster read/write performance and better resource utilization in distributed systems.
+
+* **Storage Access Optimization:**\
+Conducted benchmarking to evaluate improvements in read/write efficiency following data sharding implementation.
+
+* **System Design Leadership:**\
+Led architectural enhancements to integrate sharding techniques, improving data distribution and storage performance in distributed systems.
 
 **Relevance & Real-World Impact**
-* **Kubernetes infrastructure optimization:**\
-    Enhances distributed key-value store performance by improving the write availability in distributed systems.
-* **Write availability Improvement:** \
-    need to add here
+
+* **I/O Throughput Optimization:**\
+Improved disk write and read efficiency to enhance overall performance in distributed key-value stores.
+
+* **Write Operation Reliability:**\
+Enhanced stability and availability of write processes by optimizing I/O handling within the distributed infrastructure.
+
 * **Academic Recognition :** \
-    need to add here
+    Included in various research papers and technical analyses focused on DNS query handling and ETCD performance improvements.
 * **Educational Impact:** \
-    need to add here
+    Outcomes incorporated into research projects, supporting continuous academic dialogue on container orchestration and cloud infrastructure efficiency.
 
 **Experimental Results (Summary)**
 
-| Cluster Size (Nodes) | NTP Sync Time (minutes) | Chrony Sync Time (minutes) | Improvement (%) |
-| ---------------------| ----------------------- | -------------------------- | ----------------|
-| 3                    | 8                       | 1                          | 87.5            |
-| 5                    | 10                      | 1                          | 90              |
-| 7                    | 13                      | 2                          | 84.6            |
-| 9                    | 16                      | 2                          | 87.5            |
-| 11                   | 18                      | 3                          | 83.3            |
+| Cluster Size (Nodes) | Read Throughput (reads/sec) | Read Throughput (reads/sec) | Improvement (%) |
+| ---------------------| --------------------------- | --------------------------- | ----------------|
+| 6                    | 26000                       | 42000                       | 61.54           |
+| 9                    | 32000                       | 60000                       | 87.50           |
+| 10                    | 37000                      | 50000                       | 35.14           |
+| 15                    | 47000                      | 75000                       | 59.57           |
 
 **Citation**
 * **OPTIMIZING READ PERFORMANCE IN DISTRIBUTED systems USING Chrony Sync process.**
