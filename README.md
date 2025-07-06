@@ -31,7 +31,6 @@ In distributed systems, accurate time synchronization is vital for maintaining c
 
 **Experimental Results (Summary)**
 
-
 | Cluster Size (Nodes) | NTP Sync Time (minutes) | Chrony Sync Time (minutes) | Improvement (%) |
 | ---------------------| ----------------------- | -------------------------- | ----------------|
 | 3                    | 8                       | 1                          | 87.5            |
